@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon">
+    <title>Portfólio - Ryan Silva</title>
+    <link rel="stylesheet" href="public/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Seja muito bem-vindo(a)!</h1>
+            <p>Desenvolvedor Frontend e apaixonado por tecnologia.<br>
+            HTML, CSS, Java, JavaScript, Typescript | Git, Github | UX</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <div class="sobre-content">
+                <p>Sou um desenvolvedor web dedicado e apaixonado, comprometido com a excelência e a inovação contínua no campo da tecnologia. Desde o início da minha jornada no desenvolvimento em 2023, tenho me dedicado incessantemente a aprimorar minhas habilidades e a me destacar como um profissional de referência na área.</p>
+                <p>Minha trajetória é marcada por um profundo entusiasmo por novas tecnologias e uma sede insaciável de conhecimento, o que me impulsiona a aprender e evoluir dia após dia. Tenho uma sólida experiência em desenvolvimento com Javascript, TypeScript e React Native, entre outras tecnologias, as quais utilizo para criar aplicações web de alta qualidade e valor.</p>
+                <p>Minha abordagem ao desenvolvimento é caracterizada pela agilidade e consistência. Sou capaz de aprender novas linguagens de programação de forma eficiente e de me adaptar rapidamente a mudanças no ambiente de trabalho, estando sempre pronto para enfrentar e superar qualquer desafio que se apresente.</p>
+                <p>Além das habilidades técnicas, acredito firmemente nas qualidades pessoais que me definem. Se pudesse me descrever em três palavras, certamente escolheria: esforçado, otimista e perseverante. Estas características refletem minha dedicação incansável, minha visão positiva frente aos desafios e minha determinação em alcançar objetivos ambiciosos.</p>
+                <p>Estou sempre em busca de oportunidades para aplicar meus conhecimentos e contribuir significativamente para o sucesso de projetos inovadores. Minha meta é não apenas acompanhar, mas também antecipar as tendências tecnológicas, buscando soluções que tragam valor real e impacto positivo para os usuários e as organizações com as quais colaboro. Em resumo, sou um profissional comprometido com a melhoria contínua e a inovação, pronto para agregar valor e fazer a diferença em qualquer equipe de desenvolvimento.</p>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="gallery">
+                <div class="project-card">
+                    <img src="public/img/pj.jpeg" alt="Projeto 1">
+                    <h3><a href="https://memoria-azure.vercel.app/" target="_blank" rel="external">Jogo da memoria.</a></h3>
+                    <p>Um jogo de memoria com animação completa...</p>
+                </div>
+                <div class="project-card">
+                    <img src="public/img/pj3.jpeg" alt="Projeto 2">
+                    <h3><a href="https://landing-page-ivory-six-62.vercel.app/" target="_blank" rel="external">Landing Page.</a></h3>
+                    <p>Elas trazem poucos elementos e são focadas em apenas um CTA principal...</p>
+                </div>
+                <div class="project-card">
+                    <img src="public/img/pj2.jpeg" alt="Projeto 3">
+                    <h3><a href="https://conversor-dun.vercel.app/" target="_blank" rel="external">Conversor de moeda.</a></h3>
+                    <p>Um conversor de moeda, que esta sempre atualizado...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/ryan-silva-frontend/" target="_blank" rel="external">
+            <img src="public/img/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/RyanSilvaFrontend" target="_blank" rel="external">
+            <img src="public/img/git.png" alt="GitHub">
+        </a>
+        <p>&copy; 2024 Portifolio-Ryan Silva. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="public/scripts.js"></script>
+</body>
+</html>
